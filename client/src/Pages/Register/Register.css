@@ -1,0 +1,14 @@
+body {
+  background-image: url("../../../public/Images/gym_login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register__container {
+    height: calc(100vh - 56px);
+}
+.title__register {
+  margin-bottom: 3rem;
+}
+.label__register {
+  align-self: start;
+}

@@ -1,0 +1,9 @@
+.login__container {
+  height: calc(100vh - 40px);
+  background-image: url("../../../public/Images/gym_login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.label__login {
+  align-self: start;
+}
