@@ -109,7 +109,7 @@ function Register() {
           </Form.Group>
         </Row>
 
-        <Button as={Col} md="6" type="submit">
+        <Button as={Col} md="4" type="submit">
           Register
         </Button>
       </Form>

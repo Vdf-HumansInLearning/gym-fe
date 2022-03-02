@@ -1,9 +1,11 @@
 .login__container {
-  height: calc(100vh - 40px);
-  background-image: url("../../../public/Images/gym_login.jpg");
-  background-repeat: no-repeat;
+  height: calc(100% - 60px);
+  background-image: url("../../../public/Images/login1.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: auto;
 }
+
 .label__login {
   align-self: start;
 }
