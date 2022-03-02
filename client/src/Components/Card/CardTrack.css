@@ -1,0 +1,33 @@
+.dashboard__container {
+  margin-top: 40px;
+}
+.dashboard__container .card {
+  height: fit-content;
+}
+
+.dashboard__container .card,
+.track__body .card {
+  border: 1px solid #9e9e9e;
+  border-radius: 15px;
+}
+
+.track__body {
+  height: 120px;
+}
+.track__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track__subtitle {
+  margin-top: 20px;
+}
+.track__body.card-body {
+  height: 200px;
+  flex: 0;
+}
+
+.track__button {
+  height: 50px;
+  width: 50px;
+}

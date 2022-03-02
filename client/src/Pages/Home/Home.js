@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import { Carousel, Button } from "react-bootstrap";
 import "./Home.css";
 
 const Home = () => {
@@ -8,33 +8,33 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../../public/Images/home_slide1.jpg"
+          src="../../Images/home_slide1.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
+          <Button variant="outline-danger">Join us!</Button>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../../public/Images/home_slide1.jpg"
+          src="../../Images/home_slide1.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
+          <Button variant="outline-warning">Second slide label</Button>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../../public/Images/home_slide1.jpg"
+          src="../../Images/home_slide1.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <Button variant="outline-info">Third slide label</Button>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>

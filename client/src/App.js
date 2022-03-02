@@ -16,13 +16,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path="/register" element={<Register />} />
+        
         <Route path="/home" element={<Home />} />
         <Route element={<ProtectedLogin />}>
           <Route path="/login" element={<Login />} />
         </Route>
-        <Route element={<ProtectedRoutes />}>
+        {/* <Route element={<ProtectedRoutes />}> */}
           <Route path="/dashboard" element={<Dashboard />} />
-        </Route>
+        {/* </Route> */}
       </Routes>
     </div>
   );

@@ -1,0 +1,21 @@
+.cardsession__container {
+  margin: 0.5rem;
+  width: 400px;
+  height: 100px;
+}
+p {
+  color: #000000;
+}
+.cardsession__body {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.div__difficultyLevel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card__text__difficulty {
+  margin: auto;
+}

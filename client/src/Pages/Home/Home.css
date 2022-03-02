@@ -1,3 +1,7 @@
 .carousel {
   height: calc(100% - 60px);
 }
+h5,
+p {
+  color: white;
+}
