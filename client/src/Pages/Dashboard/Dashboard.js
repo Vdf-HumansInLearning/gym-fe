@@ -5,6 +5,10 @@ import './Dashboard.css'
 const Dashboard = () => {
   return (
     <>
+      <div className="main__title">
+        <h1>Add new Tracks/Sessions</h1>
+      </div>
+
       <div className='dashboard__container'>
         <CardTrack />
         <CardTrack />

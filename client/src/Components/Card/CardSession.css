@@ -6,16 +6,30 @@
 p {
   color: #000000;
 }
+
 .cardsession__body {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
+
 .div__difficultyLevel {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
 }
-.card__text__difficulty {
-  margin: auto;
+
+.progress {
+  width: 200px;
+  align-self: center;
 }
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+ div.div__difficultyLevel {
+   align-items: center;
+ }

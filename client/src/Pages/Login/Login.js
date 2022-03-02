@@ -19,7 +19,9 @@ function Login() {
     <>
       <div className="login__container d-flex align-items-center justify-content-center">
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
-          <h1 className="mb-5">Login to your account</h1>
+          <div className="main__title">
+            <h1>Login to your account:</h1>
+          </div>
           <Row className="mb-3">
             <Form.Group
               className="d-flex flex-column"

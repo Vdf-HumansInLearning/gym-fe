@@ -18,8 +18,9 @@ function Register() {
   return (
     <div className="register__container d-flex align-items-center justify-content-center">
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <h1 className="title__register">Create a new account!</h1>
-
+        <div className="main__title">
+          <h1>Create a new account:</h1>
+        </div>
         <Row className="mb-3">
           <Form.Group
             className="d-flex flex-column"

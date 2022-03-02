@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, ProgressBar } from "react-bootstrap";
 import "./CardSession.css";
 
 const CardSession = () => {
@@ -13,7 +13,7 @@ const CardSession = () => {
           <Card.Text className="card__text__difficulty">
             Difficulty level:
           </Card.Text>
-          <Button variant="success">Line with difficulty level</Button>
+          <ProgressBar variant="success" now={40} />
         </div>
       </Card.Body>
     </Card>

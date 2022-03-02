@@ -14,15 +14,17 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path="/register" element={<Register />} />
-        
+
         <Route path="/home" element={<Home />} />
         <Route element={<ProtectedLogin />}>
           <Route path="/login" element={<Login />} />
         </Route>
         {/* <Route element={<ProtectedRoutes />}> */}
-          <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* </Route> */}
       </Routes>
     </div>
