@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <Carousel variant="dark">
-      <Carousel.Item className="carousel__image">
+      <Carousel.Item interval={3000} className="carousel__image">
         <img
           className="d-block w-100"
           src="../../Images/home_slide1.jpg"
@@ -13,10 +13,12 @@ const Home = () => {
         />
         <Carousel.Caption>
           <Button variant="outline-danger">Join us!</Button>
-          <p className="home__paragraph">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p className="home__paragraph">
+            Nulla vitae elit libero, a pharetra augue mollis interdum.
+          </p>
         </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className="carousel__image">
+      </Carousel.Item >
+      <Carousel.Item interval={3000} className="carousel__image">
         <img
           className="d-block w-100"
           src="../../Images/slide4.jpg"
@@ -24,10 +26,12 @@ const Home = () => {
         />
         <Carousel.Caption>
           <Button variant="outline-warning">Second slide label</Button>
-          <p className="home__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="home__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel__image">
+      <Carousel.Item interval={3000} className="carousel__image">
         <img
           className="d-block w-100"
           src="../../Images/slide6.jpg"

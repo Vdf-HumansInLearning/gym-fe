@@ -1,7 +1,8 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import CardSession from "./CardSession";
 import "./CardTrack.css";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const CardTrack = () => {
   return (
@@ -14,9 +15,9 @@ const CardTrack = () => {
               Tuesday
             </Card.Subtitle>
           </div>
-          <Button className="track__button" variant="primary">
-            +
-          </Button>
+          <BsFillPlusCircleFill
+            style={{ fontSize: "30px", color: "#0d6efd" }}
+          />
         </Card.Body>
       </Card.Body>
       <CardSession />

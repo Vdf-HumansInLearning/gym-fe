@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function NavbarC() {
@@ -12,12 +13,20 @@ function NavbarC() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto justify-content-start">
-            <Nav.Link href="/home">About</Nav.Link>
-            <Nav.Link href="/pricing">Contact</Nav.Link>
+            <Link className="nav__link" to="/home">
+              About
+            </Link>
+            <Link className="nav__link" to="/pricing">
+              Contact
+            </Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/register">Register</Nav.Link>
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Link className="nav__link" to="/register">
+              Register
+            </Link>
+            <Link className="nav__link" to="/login">
+              Login
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
