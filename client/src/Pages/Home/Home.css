@@ -1,7 +1,12 @@
 .carousel {
   height: calc(100% - 60px);
 }
-h5,
-p {
+
+.home__paragraph{
   color: white;
+}
+
+.carousel__image {
+  background-position: center;
+  height: calc(100vh - 60px);
 }

@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <Carousel variant="dark">
-      <Carousel.Item>
+      <Carousel.Item className="carousel__image">
         <img
           className="d-block w-100"
           src="../../Images/home_slide1.jpg"
@@ -13,29 +13,29 @@ const Home = () => {
         />
         <Carousel.Caption>
           <Button variant="outline-danger">Join us!</Button>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p className="home__paragraph">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="carousel__image">
         <img
           className="d-block w-100"
-          src="../../Images/slide1.jpg"
+          src="../../Images/slide4.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
           <Button variant="outline-warning">Second slide label</Button>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="home__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="carousel__image">
         <img
           className="d-block w-100"
-          src="../../Images/home_slide1.jpg"
+          src="../../Images/slide6.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
           <Button variant="outline-info">Third slide label</Button>
-          <p>
+          <p className="home__paragraph">
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
