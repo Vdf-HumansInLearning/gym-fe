@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Form, Col, Row, InputGroup, Button } from "react-bootstrap";
 import "./Register.css";
 
@@ -109,8 +110,15 @@ function Register() {
             <Form.Control type="password" placeholder="Confirm Password" />
           </Form.Group>
         </Row>
-
-        <Button as={Col} md="4" type="submit">
+        <div>
+          <p style={{ textAlign: "end", fontSize: "15px", marginTop: "-20px", marginBottom: "20px" }}>
+            Already have an account?
+            <Link to="/login" className="link-primary">
+              Login
+            </Link>
+          </p>
+        </div>
+        <Button style={{ width: "100%" }} as={Col} md="4" type="submit">
           Register
         </Button>
       </Form>
