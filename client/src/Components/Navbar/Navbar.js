@@ -16,6 +16,7 @@ function NavbarC() {
             <Nav.Link href="/pricing">Contact</Nav.Link>
           </Nav>
           <Nav>
+            <Nav.Link href="/register">Register</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>

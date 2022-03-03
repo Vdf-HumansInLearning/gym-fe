@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: auto;
+  background-position: center;
 }
 .title__register {
   margin-bottom: 3rem;

@@ -15,9 +15,7 @@ p {
 
 .div__difficultyLevel {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-self: center;
   width: 100%;
 }
 
@@ -29,7 +27,3 @@ p {
 .card-text {
   margin-bottom: 5px;
 }
-
- div.div__difficultyLevel {
-   align-items: center;
- }

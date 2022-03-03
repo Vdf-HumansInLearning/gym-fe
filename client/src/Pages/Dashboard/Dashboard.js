@@ -1,6 +1,6 @@
 import React from "react";
 import CardTrack from "../../Components/Card/CardTrack";
-import './Dashboard.css'
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
@@ -9,7 +9,7 @@ const Dashboard = () => {
         <h1>Add new Tracks/Sessions</h1>
       </div>
 
-      <div className='dashboard__container'>
+      <div className="dashboard__container">
         <CardTrack />
         <CardTrack />
         <CardTrack />
